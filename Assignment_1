@@ -1,0 +1,6 @@
+n=int(input("Please input the value for which you wish to calculate the expected sum"))
+N=int(input("Please input the highest power upto which you want to calculate the sum"))
+s=0
+for i in range(1,N):
+    s+=n**i
+print("Final answer",s)
